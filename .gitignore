@@ -1,2 +1,5 @@
 # Virtual environment
 MMoB/
+
+# Additional information, logs and files storing results.
+info/
