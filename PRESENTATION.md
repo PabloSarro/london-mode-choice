@@ -60,14 +60,10 @@ All numbers below come from `src/assignment.ipynb`.
 
 - **Model 0:** constants plus generic time and cost.
 
-  ```math
-  \begin{aligned}
-  V_{walk} &= \beta_{time} T_{walk} \\
-  V_{cycle} &= ASC_{cycle} + \beta_{time} T_{cycle} \\
-  V_{pt} &= ASC_{pt} + \beta_{time} T_{pt} + \beta_{cost} C_{pt} \\
-  V_{car} &= ASC_{car} + \beta_{time} T_{car} + \beta_{cost} C_{car}
-  \end{aligned}
-  ```
+  - $V_{walk} = \beta_{time} T_{walk}$
+  - $V_{cycle} = ASC_{cycle} + \beta_{time} T_{cycle}$
+  - $V_{pt} = ASC_{pt} + \beta_{time} T_{pt} + \beta_{cost} C_{pt}$
+  - $V_{car} = ASC_{car} + \beta_{time} T_{car} + \beta_{cost} C_{car}$
 
   - Walk is the reference alternative ($ASC_{walk} = 0$).
 - **Model 1:** separate time coefficients per mode ($\beta_{time,walk}$, $\beta_{time,cycle}$, $\beta_{time,pt}$, $\beta_{time,car}$). Cost stays generic: £1 is worth the same on every mode.
