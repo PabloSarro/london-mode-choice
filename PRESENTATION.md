@@ -168,8 +168,8 @@ All numbers below come from `src/assignment.ipynb`.
 1. **Data:** shares, sample size, constructed attributes (Section 1).
 2. **Data difficulties:** gender imbalance, rare cycling, free fares, congestion charge, drivers and passengers mixed in car (Section 2).
 3. **Specifications M0 → M1 → M2a / M2b:** utility functions and modelling choices (Section 3).
-4. **Results table and key coefficients:** values of time, age effects (Section 4, Section 5).
-5. **Tests and identification:** LR tests, Horowitz test, normalisation (Section 6, Section 7).
+4. **Results table and key coefficients:** values of time, age effects (Sections 4 and 5).
+5. **Tests and identification:** LR tests, Horowitz test, normalisation (Sections 6 and 7).
 6. **Conclusions and next steps** (Section 8).
 
 ## Questions to prepare for
