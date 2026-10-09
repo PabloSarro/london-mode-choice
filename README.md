@@ -8,7 +8,7 @@ The models are developed step by step, from a simple multinomial logit up to nes
 
 - `data/`: the group's LPMC sample (`lpmc09.dat`). Read-only.
 - `src/assignment.ipynb`: model specification, estimation and tests.
-- `presentation/`: presentation notes.
+- `PRESENTATION.md`: presentation notes.
 - `info/`: course material and the assignment description.
 
 ## Installation
