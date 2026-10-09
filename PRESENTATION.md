@@ -1,6 +1,7 @@
 # Intermediate presentation: key content (Models 0–2)
 
-**When:** 13 October 2026. **Length:** 5 minutes. **Group sample:** `data/lpmc09.dat`.
+Just some notes of interesting findings and stuff that we might say during the presentation next Tuesday.
+
 **What the course asks for:** the main difficulties met in the dataset and in the modelling process up to Model 2:
 - first tested specifications,
 - data limitations,
@@ -8,7 +9,7 @@
 - possible identification issues,
 - tests used to compare the models.
 
-All numbers below come from `src/assignment.ipynb` (Biogeme 3.3.5, robust standard errors).
+All numbers below come from `src/assignment.ipynb`.
 
 ---
 
