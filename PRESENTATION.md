@@ -127,7 +127,7 @@ All numbers below come from `src/assignment.ipynb`.
 
   - PT use rises again after 60, probably because of the free pass.
   - A linear age term cannot capture this; a piecewise or categorical age would.
-- **Age × cost not significant:** this is explained by the confounding between age and zero fares (§2).
+- **Age × cost not significant:** this is explained by the confounding between age and zero fares (ref. Section 2).
 
 ## 6. Identification and normalisation issues
 
@@ -157,28 +157,20 @@ All numbers below come from `src/assignment.ipynb`.
 
 ## 8. Conclusions and next steps
 
-- **Main lessons:**
-  - Mode-specific time sensitivity is the largest single improvement in fit.
-  - Age matters both as a taste shift and as a change in time sensitivity.
-  - Thin subgroups (women, cyclists) limit what can be estimated.
-- **Model 3:** a nonlinear transformation of time, motivated by the very long walking times. Candidates are log(time) or a piecewise linear specification.
-- **Possible improvements:**
-  - Licence and car ownership.
-  - Piecewise age.
-  - Combining the age × constant and age × time effects.
-- **Model 4 nesting ideas:** active modes (walk, cycle) vs motorised modes (PT, car). For the cross-nested model, cycling could share nests, e.g. with PT for longer trips.
-- **Model 5:** the repeated trips per person or household are a natural motivation for error components and panel effects.
+- Mode-specific time sensitivity is the largest single improvement in fit.
+- Age matters both as a taste shift and as a change in time sensitivity.
+- Thin subgroups (women, cyclists) limit what can be estimated.
 
 ---
 
 ## Suggested slide plan (5 min ≈ 5–6 slides)
 
-1. **Data:** shares, sample size, constructed attributes (§1).
-2. **Data difficulties:** gender imbalance, rare cycling, free fares, congestion charge, drivers and passengers mixed in car (§2).
-3. **Specifications M0 → M1 → M2a / M2b:** utility functions and modelling choices (§3).
-4. **Results table and key coefficients:** values of time, age effects (§4, §5).
-5. **Tests and identification:** LR tests, Horowitz test, normalisation (§6, §7).
-6. **Conclusions and next steps** (§8).
+1. **Data:** shares, sample size, constructed attributes (Section 1).
+2. **Data difficulties:** gender imbalance, rare cycling, free fares, congestion charge, drivers and passengers mixed in car (Section 2).
+3. **Specifications M0 → M1 → M2a / M2b:** utility functions and modelling choices (Section 3).
+4. **Results table and key coefficients:** values of time, age effects (Section 4, Section 5).
+5. **Tests and identification:** LR tests, Horowitz test, normalisation (Section 6, Section 7).
+6. **Conclusions and next steps** (Section 8).
 
 ## Questions to prepare for
 
@@ -186,5 +178,5 @@ All numbers below come from `src/assignment.ipynb`.
 - Why are the time coefficients mode-specific but cost is generic? → the disutility of time depends on the travel experience; money is fungible.
 - Why is $ASC_{car}$ negative? → it is relative to walking, all else equal, and captures access barriers.
 - Why can't 2a and 2b be compared with an LR test? → they are not nested; use ρ̄² and Horowitz.
-- Are the values of time plausible? → high, but they have candidate explanations (§5). Income is not available.
+- Are the values of time plausible? → high, but they have candidate explanations (Section 5). Income is not available.
 - How will the unbalanced stratum weights affect the market shares later? → about 250 women carry about half of the population weight.
