@@ -1,4 +1,4 @@
-# Intermediate presentation: key content (Models 0–2)
+# Presentation for next Tuesday - Models 0-2
 
 Just some notes of interesting findings and stuff that we might say during the presentation next Tuesday.
 
